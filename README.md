@@ -44,6 +44,7 @@ Below is the top 10 list of common passwords in 2024, feel free to use these as 
 | iota     | secret    |
 | kappa    | 123123    |
 
+
 ### Creating Hash Dump File
 In Linux, usernames are stored in a file named <code>passwd</code> and the hashes are stored ina file named <code>shadow</code>. 
 
@@ -74,6 +75,7 @@ To do this we will use <code>></code> and name the file <code>hack_me</code>
 Use <code>sudo</code> if necessary and a new file called <code>hack_me</code> will be created.
 
 Be sure to use the Linux command <code>cat</code> to display the contents of the file and verify it contains a combination of the <code>shadow</code> and <code>passwd</code> files.
+
 
 ### Use the file for the Password Cracker
 Every password cracking tool works differently and your free to use whatever to works for you. 
