@@ -1,4 +1,4 @@
-cl# Password-Cracking-on-Linux
+# Password-Cracking-on-Linux
 
 ## Objective
 The purpose of this project is to demonstrate how to use pasword crackers in linux.
@@ -88,10 +88,21 @@ John the Ripper requires an input of the hash dump file and without using any ot
 
 John the Ripper can also perform a dictionary attack which uses a wordlist already contained within the tool. <code>/usr/share/john/password.lst</code>
 
+(Note: There are many funtions and commands that can be used with this tool, feel free to explore what works for you)
+
 With all this we can use the command:
 
-<code>john --wordlist=/usr/share/john/password.lst ~/hack_me</code>
+<code>john --format=crypt ~/hack_me</code>
 
+![image](https://github.com/user-attachments/assets/ea8787c1-60f0-4235-82f3-ab6a0ea823e1)
+
+While the command is running it may take a various amount of time to crack it depending on the difficulty, but you will see the simpler ones quickly cracked.
+
+You can use the command <code>john --show ~/hack_me</code> to see exactly how many password were cracked and what they were.
+
+![image](https://github.com/user-attachments/assets/20f2e155-7b48-481f-8a55-088db462b1c9)
+
+Thank you for taking the time to read this project. I hope it helps in your cyber journey.
 
 
 
